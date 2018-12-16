@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://www.linkedin.com/in/*/"
+        "*://www.linkedin.com/*"
       ],
       "js": [
         "/dist/index.bundle.js"
@@ -18,7 +18,6 @@
   },
   "permissions": [
     "webRequest",
-    "webRequestBlocking",
     "https://www.linkedin.com/*"
   ],
   "browser_action": {
